@@ -1,16 +1,21 @@
 # OwnCloud
-Private cloud set up using a Rasberry Pi and an HHD of 5TB
+Private cloud set up using a Rasberry Pi and an HHD of 5TB. 
+
+I used VNC for remote connection to the Raspberry. You can download it [here](https://www.realvnc.com/).
+I bought a no-ip domain + No-IP Vital Encrypt DV (For the SSL certificate). You can find out more on their [offical webpage](https://www.noip.com/)
+For generating the certificate CSR, I used [OpenSSL CSR Tool](https://www.digicert.com/easy-csr/openssl.htm)
+To enable access from outside my network, I used [this tutorial](https://www.makeuseof.com/access-owncloud-internet/)
 
 # Raspberry Pi
 ## How to Install OwnCloud on Raspberry Pi 3
 *5 years ago by Shahriar Shovon*
 
-OwnCloud is a self-hosted file sharing server. It has a nice looking web based UI and has apps for Linux, Windows, macOS, Android and iPhone. In this article, I am going to show you how to install OwnCloud on Raspberry Pi 3. So, let’s get started.
+OwnCloud is a self-hosted file-sharing server. It has a nice-looking web-based UI and has apps for Linux, Windows, macOS, Android and iPhone. In this article, I am going to show you how to install OwnCloud on Raspberry Pi 3. So, let’s get started.
 
 ## Things You Need:
 To successfully install OwnCloud on Raspberry Pi 3 using this article, you need,
 
-- A Raspberry Pi 3 single board computer.
+- A Raspberry Pi 3 single-board computer.
 - A microSD card of at least 8 GB or more.
 - Network connectivity on Raspberry Pi.
 
